@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Working with Dates in JavaScript</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="left">
+            <div class="img_main">
+                <img src="img/1.jpg" id="img_main" alt="">
+            </div>
+            <div class="list_img">
+                <img src="img/1.jpg" onclick="handleChangeImg('img/1.jpg')" alt="">
+                <img src="img/2.jpg" onclick="handleChangeImg('img/2.jpg')" alt="">
+                <img src="img/3.jpg" onclick="handleChangeImg('img/3.jpg')" alt="">
+                <img src="img/4.jpg" onclick="handleChangeImg('img/4.jpg')" alt="">
+            </div>
+        </div>
+        <div class="right">
+            <input type="text" id="idInput" placeholder="ID">
+            <input type="text" id="nameInput" placeholder="Name">
+            <input type="text" id="priceInput" placeholder="Price">
+            <input type="text" id="imgInput" placeholder="Image URL">
+            <button onclick="addProduct()">Add Product</button>
+            <ul id="productList"></ul>
+
+        </div>
+    </div>
+    <script src="main.js"></script>
+
+</body>
+
+</html>
