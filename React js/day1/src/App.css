@@ -1,0 +1,247 @@
+header {
+    background-image: url(img/header-bg.jpg);
+}
+
+article {
+    background-image: url(img/body_bg.gif);
+}
+
+article .card-body {
+    background-color: #333;
+    color: white;
+}
+
+/* body */
+article .container {
+    font-size: 12px;
+    line-height: 18px;
+    padding-bottom: 20px;
+}
+
+.left {
+    font-size: 12px;
+    line-height: 18px;
+    padding: 0px 20px;
+}
+
+.left nav ul li a {
+    background-color: #191919;
+    border-color: #0000;
+    border-style: solid;
+    border-width: 0.666667px;
+    color: #44e2ff;
+    font-family: Arial;
+    font-size: 12px;
+    line-height: 17.1429px;
+    padding: 10px 16px;
+    text-align: left;
+}
+
+.left nav {
+    padding: 20px 16px;
+}
+
+.link {
+    background-color: #111;
+    border-radius: 3px;
+    color: #ccc;
+    font-family: Arial;
+    font-size: 12px;
+    line-height: 18px;
+    padding: 5px 10px 5px;
+
+}
+
+.link ol {
+    color: #fff601;
+    display: inline;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.link span {
+    color: #bbb;
+    display: inline;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.filter label {
+    color: #ddd;
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 18px;
+}
+
+.filter {
+    background-color: #222;
+    border-color: #121212;
+    border-radius: 2px;
+    border-style: solid;
+    border-width: 0.666667px;
+    font-size: 12px;
+    line-height: 18px;
+    padding: 10px 0px;
+}
+
+.left h2,
+.right h2 {
+    font-family: Helvetica Neue;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 41.8px;
+    margin: 10px 0px 5px;
+}
+
+/* .right {
+    font-size: 12px;
+    line-height: 18px;
+    padding: 0px 10px 0px 20px;
+}
+
+.right h2 {
+    color: #dacb46;
+    font-size: 25px;
+    line-height: 25px;
+    padding: 3px 0px 0px 35px;
+    text-shadow: #1a1a1a 1px 1px 1px;
+    text-transform: uppercase
+} */
+
+/* thẻ phim */
+.item .card {
+    background-color: #333;
+    color: white;
+}
+
+article h2,
+.card-body h5 a:hover,
+.card-body p a:hover {
+    color: #dacb46;
+
+}
+
+.card-body h5 a {
+    color: #44e2ff;
+    text-decoration: none;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 18px;
+    text-align: left;
+}
+
+.card-body p a {
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+/* footer */
+footer {
+    background-image: url(img/bg-footer.png);
+}
+
+footer .container span {
+    color: #dacb46;
+    display: inline-block;
+    font-size: 30px;
+    line-height: 40px;
+    text-shadow: #1a1a1a 1px 1px 1px;
+    text-transform: uppercase;
+}
+
+footer .container h5 {
+    color: #fff;
+    font-family: Helvetica Neue;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 15.4px;
+    margin: 10px 0px;
+}
+
+footer .container .abc {
+    color: #fff;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+footer .container {
+    padding: 20px 0;
+}
+
+.header,
+.navbar-nav {
+    padding-left: 10rem;
+}
+
+.navbar {
+    background-image: #333 url(/image/nav-bg.jpg) repeat-x;
+    background-size: 100%;
+    box-shadow: 0 4px 4px -2px rgba(0, 0, 0, .6);
+    border-top: 3px solid #dacb46;
+
+}
+
+ul li {
+    color: white;
+}
+
+
+.d-block a {
+    color: #46E1FF;
+    text-decoration: none;
+}
+
+.d-block a:hover {
+    color: #dacb46;
+}
+
+.card a {
+    text-decoration: none;
+    /* Loại bỏ gạch chân */
+    color: inherit;
+    /* Kế thừa màu chữ */
+}
+
+/* hiệu ứng hover card */
+.col-md-3 {
+    position: relative;
+    overflow: hidden;
+}
+
+.col-md-3 img {
+    transition: opacity 0.3s;
+}
+
+.col-md-3 img:hover {
+    opacity: 0.5;
+    /* Điều chỉnh giá trị opacity theo ý muốn */
+}
+
+/* card top con */
+.card {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s, transform 0.3s;
+}
+
+.card:hover {
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+    transform: translateY(-5px);
+}
+
+.card img {
+    transition: opacity 0.3s;
+}
+
+.card:hover img {
+    opacity: 0.5;
+}
