@@ -1,0 +1,22 @@
+{
+  "products": [
+    {
+      "name": "Sông hồng",
+      "image": "https://hoanghamobile.com/tin-tuc/wp-content/uploads/2024/04/anh-bien.jpg",
+      "price": "20000",
+      "id": "2"
+    },
+    {
+      "name": "Hà Nội",
+      "image": "https://danviet.mediacdn.vn/upload/2-2018/images/2018-05-28/1-1527481499-width650height410.jpg",
+      "price": "10000",
+      "id": "3"
+    },
+    {
+      "name": "Hưng yên",
+      "image": "https://danviet.mediacdn.vn/upload/2-2018/images/2018-05-28/3-1527481499-width650height401.jpg",
+      "price": "320000",
+      "id": "e3c7"
+    }
+  ]
+}
