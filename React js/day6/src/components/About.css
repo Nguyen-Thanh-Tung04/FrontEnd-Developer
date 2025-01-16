@@ -1,0 +1,46 @@
+/* About.css */
+
+.about-container {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f9;
+    color: #333;
+  }
+  
+  .about-header {
+    background-color: #0073e6;
+    padding: 20px;
+    text-align: center;
+    color: white;
+  }
+  
+  .about-header h1 {
+    margin: 0;
+  }
+  
+  .about-content {
+    padding: 20px;
+  }
+  
+  .about-content h2 {
+    color: #0073e6;
+  }
+  
+  .about-content p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  .about-footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #222;
+    color: white;
+  }
+  
+  .about-footer p {
+    margin: 0;
+  }
+  

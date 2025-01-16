@@ -1,0 +1,19 @@
+nav ul {
+    list-style-type: none;  /* Loại bỏ dấu chấm đầu dòng */
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline;  /* Hiển thị các item ngang */
+    margin-right: 10px;
+  }
+  
+  nav a {
+    text-decoration: none;  /* Loại bỏ gạch chân */
+    color: blue;  /* Màu chữ */
+  }
+  
+  nav a:hover {
+    text-decoration: underline;  /* Thêm gạch chân khi hover */
+  }
+  

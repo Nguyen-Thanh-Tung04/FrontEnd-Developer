@@ -1,0 +1,40 @@
+/* index.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav {
+    display: flex;          /* Sử dụng flexbox để căn giữa */
+    justify-content: center; /* Căn giữa theo chiều ngang */
+    padding: 20px;
+  }
+  
+  ul {
+    list-style-type: none; /* Loại bỏ dấu chấm đầu dòng */
+    padding: 0;
+    margin: 0;
+    display: flex;         /* Sử dụng flexbox để sắp xếp các item ngang */
+  }
+  
+  li {
+    margin-right: 20px; /* Khoảng cách giữa các item */
+  }
+  
+  li:last-child {
+    margin-right: 0; /* Loại bỏ margin phải cho phần tử cuối cùng */
+  }
+  
+  a {
+    text-decoration: none; /* Loại bỏ gạch chân */
+    color: #0073e6;        /* Màu chữ */
+    font-size: 18px;       /* Cỡ chữ */
+  }
+  
+  a:hover {
+    text-decoration: underline; /* Thêm gạch chân khi hover */
+  }
+  
